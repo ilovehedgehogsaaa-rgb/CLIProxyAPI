@@ -26,7 +26,7 @@ COPY config.yaml /CLIProxyAPI/config.yaml
 
 WORKDIR /CLIProxyAPI
 
-EXPOSE 8317
+EXPOSE 8000
 
 ENV TZ=Asia/Shanghai
 
